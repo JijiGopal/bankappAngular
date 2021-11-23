@@ -1,0 +1,8 @@
+<form class="box" (ngSubmit)="register()">
+    <h1>login</h1>
+    <input type="text" name="uname" id="uname"  [(ngModel)]="uname" placeholder="Username" required>
+    <input type="text" name="acno" id="accno"  [(ngModel)]="acno" placeholder="Accountnumber" required>
+    <input type="password" name="pswd" id="pwd" [(ngModel)]="pswd" placeholder="Password" required>
+    <input type="submit" name="register" id="login"  value="register">
+    <p>please <a href=''>login</a> if you already registered</p>
+</form>
